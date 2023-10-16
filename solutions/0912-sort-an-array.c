@@ -1,6 +1,7 @@
 // This is optimized for arrays with repeated values. Simple quicksort in arrays
 // with lots of repeated values will fall to O(n^2). This will hold it under
 // O(nlogn) but might end up running slower and consuming more space in average.
+// The array is sorted inplace.
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
